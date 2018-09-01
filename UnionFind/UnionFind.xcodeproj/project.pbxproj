@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE87DEEC213A64CD006200D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE87DEEB213A64CD006200D8 /* AppDelegate.swift */; };
+		AE87DEEE213A64CF006200D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE87DEED213A64CF006200D8 /* Assets.xcassets */; };
+		AE87DEF1213A64CF006200D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE87DEEF213A64CF006200D8 /* MainMenu.xib */; };
+		AE87DEFD213A64CF006200D8 /* UnionFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE87DEFC213A64CF006200D8 /* UnionFindTests.swift */; };
+		AE87DF08213A64E1006200D8 /* QuickFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE87DF07213A64E1006200D8 /* QuickFind.swift */; };
+		AE87DF0A213A64FE006200D8 /* QuickFindUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE87DF09213A64FE006200D8 /* QuickFindUnitTests.swift */; };
+		AEAFB960213A8CC80017881C /* QuickUnionUF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAFB95F213A8CC80017881C /* QuickUnionUF.swift */; };
+		AEAFB962213A8E5D0017881C /* QuickUnionUFUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAFB961213A8E5D0017881C /* QuickUnionUFUnitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE87DEF9213A64CF006200D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE87DEE0213A64CD006200D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE87DEE7213A64CD006200D8;
+			remoteInfo = UnionFind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE87DEE8213A64CD006200D8 /* UnionFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnionFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE87DEEB213A64CD006200D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE87DEED213A64CF006200D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE87DEF0213A64CF006200D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AE87DEF2213A64CF006200D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE87DEF3213A64CF006200D8 /* UnionFind.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnionFind.entitlements; sourceTree = "<group>"; };
+		AE87DEF8213A64CF006200D8 /* UnionFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnionFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE87DEFC213A64CF006200D8 /* UnionFindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFindTests.swift; sourceTree = "<group>"; };
+		AE87DEFE213A64CF006200D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE87DF07213A64E1006200D8 /* QuickFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickFind.swift; sourceTree = "<group>"; };
+		AE87DF09213A64FE006200D8 /* QuickFindUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickFindUnitTests.swift; sourceTree = "<group>"; };
+		AEAFB95F213A8CC80017881C /* QuickUnionUF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickUnionUF.swift; sourceTree = "<group>"; };
+		AEAFB961213A8E5D0017881C /* QuickUnionUFUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickUnionUFUnitTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE87DEE5213A64CD006200D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE87DEF5213A64CF006200D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE87DEDF213A64CD006200D8 = {
+			isa = PBXGroup;
+			children = (
+				AE87DEEA213A64CD006200D8 /* UnionFind */,
+				AE87DEFB213A64CF006200D8 /* UnionFindTests */,
+				AE87DEE9213A64CD006200D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE87DEE9213A64CD006200D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE87DEE8213A64CD006200D8 /* UnionFind.app */,
+				AE87DEF8213A64CF006200D8 /* UnionFindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE87DEEA213A64CD006200D8 /* UnionFind */ = {
+			isa = PBXGroup;
+			children = (
+				AE87DEEB213A64CD006200D8 /* AppDelegate.swift */,
+				AE87DEED213A64CF006200D8 /* Assets.xcassets */,
+				AE87DEEF213A64CF006200D8 /* MainMenu.xib */,
+				AE87DEF2213A64CF006200D8 /* Info.plist */,
+				AE87DEF3213A64CF006200D8 /* UnionFind.entitlements */,
+				AE87DF07213A64E1006200D8 /* QuickFind.swift */,
+				AEAFB95F213A8CC80017881C /* QuickUnionUF.swift */,
+			);
+			path = UnionFind;
+			sourceTree = "<group>";
+		};
+		AE87DEFB213A64CF006200D8 /* UnionFindTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE87DEFC213A64CF006200D8 /* UnionFindTests.swift */,
+				AE87DEFE213A64CF006200D8 /* Info.plist */,
+				AE87DF09213A64FE006200D8 /* QuickFindUnitTests.swift */,
+				AEAFB961213A8E5D0017881C /* QuickUnionUFUnitTests.swift */,
+			);
+			path = UnionFindTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE87DEE7213A64CD006200D8 /* UnionFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE87DF01213A64CF006200D8 /* Build configuration list for PBXNativeTarget "UnionFind" */;
+			buildPhases = (
+				AE87DEE4213A64CD006200D8 /* Sources */,
+				AE87DEE5213A64CD006200D8 /* Frameworks */,
+				AE87DEE6213A64CD006200D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnionFind;
+			productName = UnionFind;
+			productReference = AE87DEE8213A64CD006200D8 /* UnionFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE87DEF7213A64CF006200D8 /* UnionFindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE87DF04213A64CF006200D8 /* Build configuration list for PBXNativeTarget "UnionFindTests" */;
+			buildPhases = (
+				AE87DEF4213A64CF006200D8 /* Sources */,
+				AE87DEF5213A64CF006200D8 /* Frameworks */,
+				AE87DEF6213A64CF006200D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE87DEFA213A64CF006200D8 /* PBXTargetDependency */,
+			);
+			name = UnionFindTests;
+			productName = UnionFindTests;
+			productReference = AE87DEF8213A64CF006200D8 /* UnionFindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE87DEE0213A64CD006200D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = huchengzhen;
+				TargetAttributes = {
+					AE87DEE7213A64CD006200D8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+					AE87DEF7213A64CF006200D8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						TestTargetID = AE87DEE7213A64CD006200D8;
+					};
+				};
+			};
+			buildConfigurationList = AE87DEE3213A64CD006200D8 /* Build configuration list for PBXProject "UnionFind" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE87DEDF213A64CD006200D8;
+			productRefGroup = AE87DEE9213A64CD006200D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE87DEE7213A64CD006200D8 /* UnionFind */,
+				AE87DEF7213A64CF006200D8 /* UnionFindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE87DEE6213A64CD006200D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE87DEEE213A64CF006200D8 /* Assets.xcassets in Resources */,
+				AE87DEF1213A64CF006200D8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE87DEF6213A64CF006200D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE87DEE4213A64CD006200D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAFB960213A8CC80017881C /* QuickUnionUF.swift in Sources */,
+				AE87DF08213A64E1006200D8 /* QuickFind.swift in Sources */,
+				AE87DEEC213A64CD006200D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE87DEF4213A64CF006200D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAFB962213A8E5D0017881C /* QuickUnionUFUnitTests.swift in Sources */,
+				AE87DF0A213A64FE006200D8 /* QuickFindUnitTests.swift in Sources */,
+				AE87DEFD213A64CF006200D8 /* UnionFindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE87DEFA213A64CF006200D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE87DEE7213A64CD006200D8 /* UnionFind */;
+			targetProxy = AE87DEF9213A64CF006200D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE87DEEF213A64CF006200D8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE87DEF0213A64CF006200D8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE87DEFF213A64CF006200D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE87DF00213A64CF006200D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AE87DF02213A64CF006200D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UnionFind/UnionFind.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E66U2R5373;
+				INFOPLIST_FILE = UnionFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huchengzhen.UnionFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		AE87DF03213A64CF006200D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UnionFind/UnionFind.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E66U2R5373;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = UnionFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huchengzhen.UnionFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		AE87DF05213A64CF006200D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E66U2R5373;
+				INFOPLIST_FILE = UnionFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huchengzhen.UnionFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnionFind.app/Contents/MacOS/UnionFind";
+			};
+			name = Debug;
+		};
+		AE87DF06213A64CF006200D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E66U2R5373;
+				INFOPLIST_FILE = UnionFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huchengzhen.UnionFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnionFind.app/Contents/MacOS/UnionFind";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE87DEE3213A64CD006200D8 /* Build configuration list for PBXProject "UnionFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE87DEFF213A64CF006200D8 /* Debug */,
+				AE87DF00213A64CF006200D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE87DF01213A64CF006200D8 /* Build configuration list for PBXNativeTarget "UnionFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE87DF02213A64CF006200D8 /* Debug */,
+				AE87DF03213A64CF006200D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE87DF04213A64CF006200D8 /* Build configuration list for PBXNativeTarget "UnionFindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE87DF05213A64CF006200D8 /* Debug */,
+				AE87DF06213A64CF006200D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE87DEE0213A64CD006200D8 /* Project object */;
+}
